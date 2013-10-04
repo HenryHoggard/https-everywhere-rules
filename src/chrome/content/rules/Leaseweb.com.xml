@@ -1,0 +1,6 @@
+<ruleset name="Leaseweb.com">
+  <target host="leaseweb.com" />
+  <target host="www.leaseweb.com" />
+
+  <rule from="^http://(www\.)?leaseweb\.com/" to="https://www.leaseweb.com/" />
+</ruleset>
